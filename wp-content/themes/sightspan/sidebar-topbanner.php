@@ -6,7 +6,7 @@
       <div class="hero-carousel__item hero-carousel__item--rounded ">
         <div class="hero-carousel__small-container">
           <div class="hero-carousel__text-container hero-carousel__text-container--rounded">
-            <h1 class="hero-carousel__title">AML / Compliance</h1>
+            <h1 class="hero-carousel__title">AML / COMPLIANCE</h1>
           </div>
         </div>
         <video muted autoplay loop class="hero-carousel__video">
@@ -19,7 +19,7 @@
       <div class="hero-carousel__item hero-carousel__item--rounded ">
         <div class="hero-carousel__small-container">
           <div class="hero-carousel__text-container hero-carousel__text-container--rounded">
-            <h1 class="hero-carousel__title">Cyber Security</h1>
+            <h1 class="hero-carousel__title">CYBER SECURITY</h1>
           </div>
         </div>
         <video muted autoplay loop class="hero-carousel__video">
@@ -32,7 +32,7 @@
       <div class="hero-carousel__item hero-carousel__item--rounded ">
         <div class="hero-carousel__small-container">
           <div class="hero-carousel__text-container hero-carousel__text-container--rounded">
-            <h1 class="hero-carousel__title">Analytical Based Risk Management</h1>
+            <h1 class="hero-carousel__title">ANALYTICAL BASED RISK MANAGEMENT</h1>
           </div>
         </div>
         <video muted autoplay loop class="hero-carousel__video">
