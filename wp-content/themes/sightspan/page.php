@@ -16,7 +16,7 @@
 				the_excerpt();
 			endwhile;
 			?>
-            <a href="<?php echo get_site_url(); ?>/about-us/" class="link--btn-next our-mission__content__link strong">Learn more</a> </p>
+            <a href="<?php echo get_site_url(); ?>/company-profile/" class="link--btn-next our-mission__content__link strong">Learn more</a> </p>
         </div>
         <div class="our-mission__content__right content-swap__area">
           <p class="content-swap__show-if-active">We lead clients through accelerating change, helping them harness the power of technology to deliver new outcomes from their business. Our values are CLEAR. <a href="about_us/ds/29625-our_mission_and_values.html" class="link--btn-next our-mission__content__link strong">Learn more</a> </p>
@@ -607,7 +607,7 @@ get_sidebar('topbanner');
       </div>
     </article>
   </div>
-  <?php }elseif((get_the_id() == 196) or (get_the_id() == 198) or (get_the_id() == 201) or (get_the_id() == 203) or (get_the_id() == 205) or (get_the_id() == 207) or (get_the_id() == 209) or (get_the_id() == 211)){?>
+  <?php }elseif((get_the_id() == 196) or (get_the_id() == 198) or (get_the_id() == 201) or (get_the_id() == 203) or (get_the_id() == 205) or (get_the_id() == 207) or (get_the_id() == 209) or (get_the_id() == 211) or (theslugfilter() == 'english-brochures') or (theslugfilter() == 'arabic-brochures') or (theslugfilter() == 'portuguese-brochures') or (theslugfilter() == 'spanish-brochures') or (theslugfilter() == 'indonesian-brochures') or (theslugfilter() == 'products-brochures')){?>
   <section id="mainContent" class="leftSideBar">
   <div class="wrapper">
     <h1 class='hero-black'><?php echo get_the_title();?></h1>
@@ -702,4 +702,17 @@ get_sidebar('topbanner');
   </div>
   <?php } ?>
 </section>
+<?php
+function theslugfilter(){
+	$slug	=	basename(get_permalink());
+	return $slug;
+	$link	=	str_replace(home_url('/'),'',$link);
+	if(($len = strlen($link)) > 0 && $link[$len-1] == '/'){
+		$link	=	substr($link,0,-1);
+	}
+	$ret	=	explode('/', $link);
+	print_r($ret);
+	return $ret;
+}
+?>
 <?php get_footer(); ?>
