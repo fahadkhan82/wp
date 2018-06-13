@@ -655,7 +655,7 @@ get_sidebar('topbanner');
       <div class="Facebook_Share"> <a class="custom_share_f" href="https://www.facebook.com/SightSpan/" target="_blank"></a> </div>
       <div class="Twitter_Share"> <a class="custom_share_t" href=" https://twitter.com/sightspan" target="_blank"></a> </div>
       <div class="LinkedIn_Share"> <a class="custom_share_l" href="https://www.linkedin.com/company/sightspan-inc" target="_blank"></a> </div>
-	  <div class="LinkedIn_Share"> <a class="custom_share_y" href="https://www.youtube.com/channel/UCqAOSdXbz93UpCwH_YIIPhw" target="_blank"></a> </div>
+	  <div class="Youtube_Share"> <a class="custom_share_y" href="https://www.youtube.com/channel/UCqAOSdXbz93UpCwH_YIIPhw" target="_blank"></a> </div>
     </div>
     <br>
     <article>
