@@ -10,7 +10,7 @@
                       <li><a class="redTri" href="<?php echo get_site_url(); ?>/about-us/"><strong>About SightSpan</strong></a> </li>
                       <!-- <li><a class="yellowTri" href="/digital_briefing_center/aut/110681-digital_briefing_center"><strong>DIGITAL BRIEFING CENTER</strong></a></li>-->
                       <li><a class="blueTri" href="<?php echo get_site_url(); ?>/pcareers/"><strong>Careers</strong></a></li>
-                      <li><a class="purpleTri" href="<?php echo get_site_url(); ?>/sightspan-security-inc/"><strong>SightSpan Security Inc.</strong></a> </li>
+                      <li><a class="purpleTri" href="<?php echo get_site_url(); ?>/ssi/"><strong>SightSpan Security Inc.</strong></a> </li>
                       <li><a class="greenTri" href="http://sightspan-institute.com/sightspan/index.php/l"><strong>SightSpan Institute</strong></a> </li>
                     </ul>
                   </nav>

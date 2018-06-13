@@ -113,7 +113,7 @@
 	while($the_query->have_posts()) : $the_query->the_post();
 		the_excerpt();
 	endwhile;
-	?><a href="<?php echo get_site_url(); ?>/about-us/" class="link--btn-next our-mission__content__link strong">Learn more</a> </p>
+	?><a href="<?php echo get_site_url(); ?>/company-profile/" class="link--btn-next our-mission__content__link strong">Learn more</a> </p>
           </div>
           <div class="our-mission__content__right content-swap__area">
             <p class="content-swap__show-if-active">We lead clients through accelerating change, helping them harness the power of technology to deliver new outcomes from their business. Our values are CLEAR. <a href="about_us/ds/29625-our_mission_and_values.html" class="link--btn-next our-mission__content__link strong">Learn more</a> </p>
@@ -125,18 +125,18 @@
       <div class="logos-component home__element">
         <h1 class="home__subtitle">SightSpan Partner Network</h1>
         <div class="logos-component__logos-container">
-          <div class="logos-component__img-container"> <a href="amazon.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-amazon.png"/> </a> </div>
-          <div class="logos-component__img-container"> <a href="att.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-att.png"/> </a> </div>
-          <div class="logos-component__img-container"> <a href="dell_emc.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-dell.png"/> </a> </div>
-          <div class="logos-component__img-container"> <a href="partner_network/alliances/32238-ibm.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-ibm.png"/> </a> </div>
-          <div class="logos-component__img-container"> <a href="lenovo.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-lenovo.png"/> </a> </div>
-          <div class="logos-component__img-container"> <a href="partner_network.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-hcl.png"/> </a> </div>
-          <div class="logos-component__img-container"> <a href="partner_network/alliances/143969-hewlett_packard_enterprise.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-hpe.png"/> </a> </div>
-          <div class="logos-component__img-container"> <a href="partner_network.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-microfocus.png"/> </a> </div>
-          <div class="logos-component__img-container"> <a href="partner_network.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/knightscope_logo.jpg"/> </a> </div>
-          <div class="logos-component__img-container"> <a href="partner_network.html"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/smartsense.png"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-amazon.png"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-att.png"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-dell.png"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-ibm.png"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-lenovo.png"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-hcl.png"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-hpe.png"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/logo-microfocus.png"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/knightscope_logo.jpg"/> </a> </div>
+          <div class="logos-component__img-container"> <a href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> <img class="img-responsive logos-component__image" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/images/smartsense.png"/> </a> </div>
         </div>
-        <div class="btn-wrapper clearfix"> <a class="btn btn-primary strong pull-right btn--wider text-uppercase" href="partners.html"> EXPLORE SIGHTSPAN PARTNER NETWORKS </a> </div>
+        <div class="btn-wrapper clearfix"> <a class="btn btn-primary strong pull-right btn--wider text-uppercase" href="<?php echo get_site_url(); ?>/about-us/partner-networks/"> EXPLORE SIGHTSPAN PARTNER NETWORKS </a> </div>
       </div>
     </div>
   </div>
