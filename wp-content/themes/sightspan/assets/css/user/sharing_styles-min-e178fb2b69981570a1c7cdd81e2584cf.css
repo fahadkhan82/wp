@@ -75,7 +75,8 @@
 
 
 .share_buttons .Youtube_Share {
-    margin-right: 5px
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .share_buttons .Youtube_Share_alt {
