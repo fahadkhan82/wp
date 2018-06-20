@@ -101,6 +101,93 @@
 .stack-nav a {
 	color:#000;
 }
+
+.contact-us {
+  color: #000;
+}
+
+#mainContent .contact-us__header {
+  background: #000;
+  color: #C1AE9F;;
+  margin: 0 -15px 18px -15px;
+  font-size: 41px;
+  line-height: 60px;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.contact-us__label {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 37px;
+  padding: 0;
+}
+
+.contact-us__list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact-us__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 6px 0 0 48px;
+  margin-bottom: 20px;
+}
+
+.contact-us__item-title {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "GTWalsheimProBold", Arial, sans-serif;
+  color: #000;
+  display: block;
+}
+
+.contact-us__item-title + p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (min-width: 768px) {
+  .contact-us__list-item {
+    width: 33%;
+  }
+  #mainContent .contact-us__header {
+    margin: 0 0 52px 0;
+    padding: 34px 60px 44px;
+    text-align: left;
+    font-size: 80px;
+    line-height: 92px;
+  }
+  .contact-us__list-item {
+    padding: 6px 40px 0 48px;
+    margin-bottom: 42px;
+  }
+  .contact-us__label {
+    font-size: 20px;
+  }
+  .contact-us__item-title {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-us__list-item {
+    padding: 0px 62px 0 48px;
+  }
+}
 </style>
 <script>
 // turn off autoTrack so banner video playback does not generate video analytics
