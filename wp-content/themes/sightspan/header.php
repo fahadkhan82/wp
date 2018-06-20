@@ -126,7 +126,7 @@ color:#000;
 }
 }
  
- <?php }else{?>
+ <?php }else{ ?>
  
  
  .btn.btn-stack{background-color:transparent;}
@@ -154,7 +154,7 @@ color:#000;
 }
 }
  
- <?php ?>
+ <?php } ?>
 </style>
 
 
