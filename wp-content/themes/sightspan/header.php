@@ -280,14 +280,14 @@ $csc.autoTrack = false
 
                 <div class="col-sm-3 takeover-col">
                     <div class="takeover-links">
-                        <a href="/company-profile/">INDUSTRIES</a>
-                        <a href="/sss/">AML/CTF</a>
-                        <a href="/brochures/">COMPLIANCE</a>
-                        <a href="/pleadership/">SANCTIONS</a>
-                        <a href="/partner-networks/">DATA & CYBER SECURITY</a>
-                        <a href="/pcareers">TRAINING</a>
-                        <a href="/workplace-mobility/">TECHNOLOGY</a>
-                        <a href="/global-locations/">SIGHTSPAN SECURITY</a>
+                        <a href="/industries/">INDUSTRIES</a>
+                        <a href="/aml-ctf/">AML/CTF</a>
+                        <a href="/compliance/">COMPLIANCE</a>
+                        <a href="/psanctions/">SANCTIONS</a>
+                        <a href="/security/">DATA & CYBER SECURITY</a>
+                        <a href="/ptraining">TRAINING</a>
+                        <a href="/ptechnology/">TECHNOLOGY</a>
+                        <a href="/ssi/">SIGHTSPAN SECURITY</a>
                         
                     </div>
                 </div>
@@ -297,7 +297,17 @@ $csc.autoTrack = false
 		
 		<div class="container takeover-content">
             <button class="btn btn-stack">Products</button>
-            
+            <div class="row">
+               
+
+                <div class="col-sm-3 takeover-col">
+                    <div class="takeover-links">
+                        <a href="/products/">PRODUCT DETAILS</a>
+                       
+                        
+                    </div>
+                </div>
+            </div>
             
         </div>
 		
@@ -327,7 +337,17 @@ $csc.autoTrack = false
 		
 		<div class="container takeover-content">
             <button class="btn btn-stack">Contact Us</button>
+           <div class="row">
+               
 
+                <div class="col-sm-3 takeover-col">
+                    <div class="takeover-links">
+                        <a href="/contact-us/">LOCATIONS</a>
+                       
+                        
+                    </div>
+                </div>
+            </div>
             
         </div>
         
