@@ -239,33 +239,69 @@ $csc.autoTrack = false
           </ul>
         </div>
         <div class="bootstrap-styles">
-          <div class="hamburger-takeover">
-            <nav class="navbar">
-              <div class="container">
-                <div class="navbar-header"> <a class="navbar-brand" href="<?php echo get_site_url(); ?>"></a>
-                  <div class="close-takeover mob">
-                    <div class="center-vert">
-                      <div class="close-btn"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="close-takeover">
-                  <div class="center-vert">
-                    <div class="close-btn"></div>
-                  </div>
-                </div>
-              </div>
-            </nav>
-            <div class="container"> </div>
+       <div class="hamburger-takeover active">
+        <nav class="navbar">
             <div class="container">
-              <div class="row takeover-tabs">
-                <div class="col-sm-3 active">Services</div>
-                <div class="col-sm-3">Insights</div>
-                <div class="col-sm-3">Contact Us</div>
-                <div class="col-sm-3">About Us</div>
-              </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/"></a>
+                    <div class="close-takeover mob">
+                        <div class="center-vert">
+                            <div class="close-btn"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="close-takeover">
+                    <div class="center-vert">
+                        <div class="close-btn"></div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </nav>
+
+        <div class="container">
+        </div>
+
+        <div class="container">
+            <div class="row takeover-tabs">
+                <div class="col-sm-3 active">Services</div>
+                <div class="col-sm-3">Products</div>
+                <div class="col-sm-3">About Us</div>
+                <div class="col-sm-3">Contact Us</div>
+            </div>
+        </div>
+
+        
+
+      
+
+        
+
+        <div class="container takeover-content">
+            <button class="btn btn-stack">About Us</button>
+
+            <div class="row">
+                <div class="col-sm-3 takeover-col"></div>
+                <div class="col-sm-3 takeover-col"></div>
+                <div class="col-sm-3 takeover-col"></div>
+
+                <div class="col-sm-3 takeover-col">
+                    <div class="takeover-links">
+                        <a href="/company-profile/">Company Overview</a>
+                        <a href="/sss/">SightSpan Security</a>
+                        <a href="/brochures/">Brochures</a>
+                        <a href="/pleadership/">Leadership</a>
+                        <a href="/partner-networks/">Partner Network</a>
+                        <a href="/pcareers">Careers</a>
+                        <a href="/workplace-mobility/">Workplace Mobility</a>
+                        <a href="/global-locations/">Global Locations</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
         </div>
       </div>
     </div>
