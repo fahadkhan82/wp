@@ -13,6 +13,7 @@ function custom_breadcrumbs() {
 	#Do not display on the homepage
     if ( !is_front_page() ) {
         #Build the breadcrums
+		echo '<div class="breadcrumbs wrapper" itemprop="breadcrumb">';
         echo '<ul id="' . $breadcrums_id . '" class="' . $breadcrums_class . '">';
         #Home page
         echo '<li class="item-home"><a class="bread-link bread-home" href="' . get_home_url() . '" title="' . $home_title . '">' . $home_title . '</a></li>';
@@ -152,6 +153,7 @@ function custom_breadcrumbs() {
             echo '<li>' . 'Error 404' . '</li>';
         }
         echo '</ul>';
+		echo '</div>';
     }
 }
 ?>
