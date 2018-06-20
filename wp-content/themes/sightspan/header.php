@@ -76,119 +76,88 @@
 <script type="text/javascript" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/js/user/homepage-bundle-min-b4ea900228ce4c1ffbe980c26b397bf0.js"></script>
 <link href="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/css/user/rebrand_ui-min-b19df5ae9b7b6abe66704da53c69d576.css" media="all" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/js/user/rebrandcustom-bundle-min-5e33f6a1a5b3ec3a1b6a870592e948ab.js"></script>
+
 <style>
-.breadcrumbs.wrapper {
-	display: none;
-}
-#mainContent .wrapper {
-	max-width: 100%;
-	padding: 0;
-}
+ <?php if(get_the_id() == 92){?>
+ .breadcrumbs.wrapper { display: none; }
+#mainContent .wrapper { max-width: 100%; padding: 0; }
+
 .content-swap__area .our-mission__content__link {
-	display: block;
-	line-height: 30px;
-	margin: 20px 0 10px;
+   display: block;
+   line-height: 30px;
+   margin: 20px 0 10px;
 }
+
 .content-swap__area .our-mission__content__link:before {
-	top: 0px;
+  top: 0px;
 }
+
 .content-swap__area .our-mission__content__link:after {
-	top: 9px;
+  top: 9px;
 }
-.hero-carousel__text-container--rounded {
-	opacity:0.8;
+.hero-carousel__text-container--rounded{
+opacity:0.8;
 }
-.stack-nav a {
-	color:#000;
+.stack-nav a{
+color:#000;
+}
+.btn.btn-stack{background-color:transparent;}
+.btn.btn-stack:active, .btn.btn-stack:focus{color:#000000 !important;}
+.btn0.btn0-link{background-color:#C1AE9F;color:#000;position:relative;display:block;}
+.btn0.btn0-link.active{background-color:#000;color:#C1AE9F;position:relative;display:block;}
+
+.stack-nav a:hover, btn:focus{
+text-decoration:none;
 }
 
-.contact-us {
-  color: #000;
+.stack-nav-inset{background-color:#C1AE9F !important;}
+.stack-nav-inset a:hover{color:#000 !important; text-decoration:none !important;}
+.btn.btn-stack.active{background-color:#000 !important;color:#C1AE9F !important;}
+
+.btn0.btn0-link.active:before{content:"";position:absolute;width:0;height:0;border-style:solid;z-index:2;display:inline-block;bottom:auto;border-width:15px 15px 0 15px;border-color:#000 transparent transparent transparent;right:48%;bottom:-15px}
+
+@media (min-width: 992px){
+.btn0.btn0-link.active:before{border-width:15px 0 15px 20px;border-color:transparent transparent transparent #000;right:-20px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);bottom:auto;}
 }
 
-#mainContent .contact-us__header {
-  background: #000;
-  color: #C1AE9F;;
-  margin: 0 -15px 18px -15px;
-  font-size: 41px;
-  line-height: 60px;
-  text-transform: capitalize;
-  padding: 10px 30px;
-  text-align: center;
+@media (max-width: 992px){
+.btn:hover{
+color:#000;
+}
+}
+ 
+ <?php }else{?>
+ 
+ 
+ .btn.btn-stack{background-color:transparent;}
+.btn.btn-stack:active, .btn.btn-stack:focus{color:#000000 !important;}
+.btn0.btn0-link{background-color:#C1AE9F;color:#000;position:relative;display:block;}
+.btn0.btn0-link.active{background-color:#000;color:#C1AE9F;position:relative;display:block;}
+
+.stack-nav a:hover, btn:focus{
+text-decoration:none;
 }
 
-.contact-us__label {
-  font-size: 18px;
-  text-transform: uppercase;
-  margin-bottom: 37px;
-  padding: 0;
+.stack-nav-inset{background-color:#C1AE9F !important;}
+.stack-nav-inset a:hover{color:#000 !important; text-decoration:none !important;}
+.btn.btn-stack.active{background-color:#000 !important;color:#C1AE9F !important;}
+
+.btn0.btn0-link.active:before{content:"";position:absolute;width:0;height:0;border-style:solid;z-index:2;display:inline-block;bottom:auto;border-width:15px 15px 0 15px;border-color:#000 transparent transparent transparent;right:48%;bottom:-15px}
+
+@media (min-width: 992px){
+.btn0.btn0-link.active:before{border-width:15px 0 15px 20px;border-color:transparent transparent transparent #000;right:-20px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);bottom:auto;}
 }
 
-.contact-us__list-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+@media (max-width: 992px){
+.btn:hover{
+color:#000;
 }
-
-.contact-us__list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  padding: 6px 0 0 48px;
-  margin-bottom: 20px;
 }
-
-.contact-us__item-title {
-  font-size: 18px;
-  font-weight: 700;
-  font-family: "GTWalsheimProBold", Arial, sans-serif;
-  color: #000;
-  display: block;
-}
-
-.contact-us__item-title + p {
-  font-size: 16px;
-  line-height: 22px;
-}
-
-@media (min-width: 768px) {
-  .contact-us__list-item {
-    width: 33%;
-  }
-  #mainContent .contact-us__header {
-    margin: 0 0 52px 0;
-    padding: 34px 60px 44px;
-    text-align: left;
-    font-size: 80px;
-    line-height: 92px;
-  }
-  .contact-us__list-item {
-    padding: 6px 40px 0 48px;
-    margin-bottom: 42px;
-  }
-  .contact-us__label {
-    font-size: 20px;
-  }
-  .contact-us__item-title {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 992px) {
-  .contact-us__list-item {
-    padding: 0px 62px 0 48px;
-  }
-}
+ 
+ <?php ?>
 </style>
+
+
 <script>
 // turn off autoTrack so banner video playback does not generate video analytics
 $csc.autoTrack = false
