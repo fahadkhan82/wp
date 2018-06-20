@@ -274,21 +274,34 @@ $csc.autoTrack = false
 		
 		<div class="container takeover-content">
             <button class="btn btn-stack">Services</button>
+            
+            <div class="row">
+               
 
+                <div class="col-sm-3 takeover-col">
+                    <div class="takeover-links">
+                        <a href="/company-profile/">INDUSTRIES</a>
+                        <a href="/sss/">AML/CTF</a>
+                        <a href="/brochures/">COMPLIANCE</a>
+                        <a href="/pleadership/">SANCTIONS</a>
+                        <a href="/partner-networks/">DATA & CYBER SECURITY</a>
+                        <a href="/pcareers">TRAINING</a>
+                        <a href="/workplace-mobility/">TECHNOLOGY</a>
+                        <a href="/global-locations/">SIGHTSPAN SECURITY</a>
+                        
+                    </div>
+                </div>
+            </div>
             
         </div>
 		
 		<div class="container takeover-content">
             <button class="btn btn-stack">Products</button>
-
+            
             
         </div>
 		
-		<div class="container takeover-content">
-            <button class="btn btn-stack">Contact Us</button>
-
-            
-        </div>
+		
 		
          <div class="container takeover-content">
             <button class="btn btn-stack">About Us</button>
@@ -298,45 +311,26 @@ $csc.autoTrack = false
 
                 <div class="col-sm-3 takeover-col">
                     <div class="takeover-links">
-                        <a href="/company-profile/">Company Overview</a>
-                        <a href="/sss/">SightSpan Security</a>
-                        <a href="/brochures/">Brochures</a>
-                        <a href="/pleadership/">Leadership</a>
-                        <a href="/partner-networks/">Partner Network</a>
-                        <a href="/pcareers">Careers</a>
-                        <a href="/workplace-mobility/">Workplace Mobility</a>
-                        <a href="/global-locations/">Global Locations</a>
+                        <a href="/company-profile/">COMPANY OVERVIEW</a>
+                        <a href="/sss/">SIGHTSPAN SECURITY</a>
+                        <a href="/brochures/">BROCHURES</a>
+                        <a href="/pleadership/">LEADERSHIP</a>
+                        <a href="/partner-networks/">PARTNER NETWORK</a>
+                        <a href="/pcareers">CAREERS</a>
+                        <a href="/workplace-mobility/">WORKPLACE MOBILITY</a>
+                        <a href="/global-locations/">GLOBAL LOCATIONS</a>
                         
                     </div>
                 </div>
             </div>
         </div>
-        
-      
+		
+		<div class="container takeover-content">
+            <button class="btn btn-stack">Contact Us</button>
 
-        
-
-        <div class="container takeover-content">
-            <button class="btn btn-stack">About Us</button>
-
-            <div class="row">
-               
-
-                <div class="col-sm-3 takeover-col">
-                    <div class="takeover-links">
-                        <a href="/company-profile/">Company Overview</a>
-                        <a href="/sss/">SightSpan Security</a>
-                        <a href="/brochures/">Brochures</a>
-                        <a href="/pleadership/">Leadership</a>
-                        <a href="/partner-networks/">Partner Network</a>
-                        <a href="/pcareers">Careers</a>
-                        <a href="/workplace-mobility/">Workplace Mobility</a>
-                        <a href="/global-locations/">Global Locations</a>
-                        
-                    </div>
-                </div>
-            </div>
+            
         </div>
+        
 
     </div>
         </div>

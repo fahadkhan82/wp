@@ -116,7 +116,6 @@
 	?><a href="<?php echo get_site_url(); ?>/company-profile/" class="link--btn-next our-mission__content__link strong">Learn more</a> </p>
           </div>
           <div class="our-mission__content__right content-swap__area">
-            <p class="content-swap__show-if-active">We lead clients through accelerating change, helping them harness the power of technology to deliver new outcomes from their business. Our values are CLEAR. <a href="about_us/ds/29625-our_mission_and_values.html" class="link--btn-next our-mission__content__link strong">Learn more</a> </p>
           </div>
         </div>
       </div>
