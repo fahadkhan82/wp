@@ -7357,7 +7357,7 @@ h1 {
     background-color: #C1AE9F;
     width: 60px;
     height: 60px;
-    background-image: url("images/X.png");
+    background-image: url("http://www.sightspan.com/wp-content/themes/sightspan/assets/images/X.png");
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer
@@ -7535,7 +7535,7 @@ h1 {
 }
 
 .hamburger-takeover .navbar-brand {
-    background-image: url("images/main-logo.png");
+    background-image: url("http://www.sightspan.com/wp-content/themes/sightspan/assets/images/main-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -8447,7 +8447,7 @@ h1 {
 }
 
 .cscSearchOverlay .cscCloseSearsh:before {
-    background: url(images/X.png) no-repeat center;
+    background-image: url("http://www.sightspan.com/wp-content/themes/sightspan/assets/images/X.png") no-repeat center;
     height: 45px;
     width: 45px;
     display: block;
