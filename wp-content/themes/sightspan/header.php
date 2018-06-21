@@ -76,32 +76,88 @@
 <script type="text/javascript" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/js/user/homepage-bundle-min-b4ea900228ce4c1ffbe980c26b397bf0.js"></script>
 <link href="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/css/user/rebrand_ui-min-b19df5ae9b7b6abe66704da53c69d576.css" media="all" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php echo get_site_url(null, '/wp-content/themes/sightspan'); ?>/assets/js/user/rebrandcustom-bundle-min-5e33f6a1a5b3ec3a1b6a870592e948ab.js"></script>
+
 <style>
-.breadcrumbs.wrapper {
-	display: none;
-}
-#mainContent .wrapper {
-	max-width: 100%;
-	padding: 0;
-}
+ <?php if(get_the_id() == 92){?>
+ .breadcrumbs.wrapper { display: none; }
+#mainContent .wrapper { max-width: 100%; padding: 0; }
+
 .content-swap__area .our-mission__content__link {
-	display: block;
-	line-height: 30px;
-	margin: 20px 0 10px;
+   display: block;
+   line-height: 30px;
+   margin: 20px 0 10px;
 }
+
 .content-swap__area .our-mission__content__link:before {
-	top: 0px;
+  top: 0px;
 }
+
 .content-swap__area .our-mission__content__link:after {
-	top: 9px;
+  top: 9px;
 }
-.hero-carousel__text-container--rounded {
-	opacity:0.8;
+.hero-carousel__text-container--rounded{
+opacity:0.8;
 }
-.stack-nav a {
-	color:#000;
+.stack-nav a{
+color:#000;
 }
+.btn.btn-stack{background-color:transparent;}
+.btn.btn-stack:active, .btn.btn-stack:focus{color:#000000 !important;}
+.btn0.btn0-link{background-color:#C1AE9F;color:#000;position:relative;display:block;}
+.btn0.btn0-link.active{background-color:#000;color:#C1AE9F;position:relative;display:block;}
+
+.stack-nav a:hover, btn:focus{
+text-decoration:none;
+}
+
+.stack-nav-inset{background-color:#C1AE9F !important;}
+.stack-nav-inset a:hover{color:#000 !important; text-decoration:none !important;}
+.btn.btn-stack.active{background-color:#000 !important;color:#C1AE9F !important;}
+
+.btn0.btn0-link.active:before{content:"";position:absolute;width:0;height:0;border-style:solid;z-index:2;display:inline-block;bottom:auto;border-width:15px 15px 0 15px;border-color:#000 transparent transparent transparent;right:48%;bottom:-15px}
+
+@media (min-width: 992px){
+.btn0.btn0-link.active:before{border-width:15px 0 15px 20px;border-color:transparent transparent transparent #000;right:-20px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);bottom:auto;}
+}
+
+@media (max-width: 992px){
+.btn:hover{
+color:#000;
+}
+}
+ 
+ <?php }else{ ?>
+ 
+ 
+ .btn.btn-stack{background-color:transparent;}
+.btn.btn-stack:active, .btn.btn-stack:focus{color:#000000 !important;}
+.btn0.btn0-link{background-color:#C1AE9F;color:#000;position:relative;display:block;}
+.btn0.btn0-link.active{background-color:#000;color:#C1AE9F;position:relative;display:block;}
+
+.stack-nav a:hover, btn:focus{
+text-decoration:none;
+}
+
+.stack-nav-inset{background-color:#C1AE9F !important;}
+.stack-nav-inset a:hover{color:#000 !important; text-decoration:none !important;}
+.btn.btn-stack.active{background-color:#000 !important;color:#C1AE9F !important;}
+
+.btn0.btn0-link.active:before{content:"";position:absolute;width:0;height:0;border-style:solid;z-index:2;display:inline-block;bottom:auto;border-width:15px 15px 0 15px;border-color:#000 transparent transparent transparent;right:48%;bottom:-15px}
+
+@media (min-width: 992px){
+.btn0.btn0-link.active:before{border-width:15px 0 15px 20px;border-color:transparent transparent transparent #000;right:-20px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);bottom:auto;}
+}
+
+@media (max-width: 992px){
+.btn:hover{
+color:#000;
+}
+}
+ 
+ <?php } ?>
 </style>
+
+
 <script>
 // turn off autoTrack so banner video playback does not generate video analytics
 $csc.autoTrack = false

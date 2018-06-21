@@ -533,7 +533,7 @@ get_sidebar('topbanner');
   <div class="wrapper">
     <article class="pageContent" itemprop="mainContentOfPage">
       <div class="contact-us">
-        <h1 class="contact-us__header"><?php echo get_the_title();?></h1>
+        <h1 class="big-heading-block big-heading-block--lg-padding strong"><?php echo get_the_title();?></h1>
         <div class="row stackable-row">
           <div class="col-sm-3">
             <div class="stack-nav">
