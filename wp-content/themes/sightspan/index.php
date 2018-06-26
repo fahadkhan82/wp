@@ -88,13 +88,13 @@
 			}elseif($l==9){
 				$link	=	get_site_url()."/ptechnology/";
 			}elseif($l==10){
-				$link	=	get_site_url()."/ssi/";
+				$link	=	get_site_url()."/machine-learning/";
 			}
 			elseif($l==39){
 				$link	=	get_site_url()."/insider-threat/";
 			}
 			elseif($l==40){
-				$link	=	get_site_url()."/machine-learning/";
+				$link	=	get_site_url()."/ssi/";
 			}
 			
 			if($l==1 ||$l==2||$l==3||$l==4||$l==5||$l==6||$l==7||$l==7||$l==8||$l==9||$l==10||$l==39||$l==40){
