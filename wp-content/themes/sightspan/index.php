@@ -37,13 +37,13 @@
 			}elseif($i==7){
 				$link	=	get_site_url()."/ptechnology/";
 			}elseif($i==8){
-				$link	=	get_site_url()."/ssi/";
+				$link	=	get_site_url()."/machine-learning/";
 			}
 			elseif($i==9){
 				$link	=	get_site_url()."/insider-threat/";
 			}
 			elseif($i==10){
-				$link	=	get_site_url()."/machine-learning/";
+				$link	=	get_site_url()."/ssi/";
 			}
 			?>
             
