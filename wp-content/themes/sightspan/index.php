@@ -66,7 +66,7 @@
             </div>
           </div>
         </div>
-        <?php for($l=4;$l<11;$l++){
+        <?php for($l=4;$l<13;$l++){
             if($l==3){
 				$link	=	get_site_url()."/industries/";
 			}elseif($l==4){
