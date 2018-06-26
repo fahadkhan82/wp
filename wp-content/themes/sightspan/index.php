@@ -39,6 +39,12 @@
 			}elseif($i==8){
 				$link	=	get_site_url()."/ssi/";
 			}
+			elseif($i==9){
+				$link	=	get_site_url()."/insider-threat/";
+			}
+			elseif($i==10){
+				$link	=	get_site_url()."/machine-learning/";
+			}
 			?>
             
             <a class="btn0 btn0-link <?php #echo $active; ?>" href="<?php echo $link; ?>">
