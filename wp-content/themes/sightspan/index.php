@@ -109,6 +109,7 @@
                 <div class="header-block__hero" style="background: url(<?php echo z_taxonomy_image_url($single_cat->term_id); ?>) center no-repeat; height: 350px;width: 850px;"> </div>
                 <h2 class="header-block__heading strong"> <?php echo $single_cat->category_description;?> </h2>
               </div>
+			  <?php echo $link;?>
               <a class="link--btn-next header-block__link" href="<?php echo $link;?>"> Learn More </a> </div>
           </div>
         </div>
