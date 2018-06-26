@@ -462,7 +462,7 @@
     item = $("a[href='#tabs-" + index + "']");
   }
 </script>
-<?php } elseif((get_the_id() == 102) or (get_the_id() == 155) or (get_the_id() == 157) or (get_the_id() == 159) or (get_the_id() == 161) or (get_the_id() == 163)){
+<?php } elseif((get_the_id() == 102) or (get_the_id() == 155) or (get_the_id() == 472) or (get_the_id() == 468) or (get_the_id() == 157) or (get_the_id() == 159) or (get_the_id() == 161) or (get_the_id() == 163)){
 get_sidebar('topbanner');	
 ?>
 <div class="wrapper">
