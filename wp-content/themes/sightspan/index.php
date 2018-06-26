@@ -84,6 +84,12 @@
 			}elseif($l==10){
 				$link	=	get_site_url()."/ssi/";
 			}
+			elseif($l==11){
+				$link	=	get_site_url()."/insider-thread/";
+			}
+			elseif($l==12){
+				$link	=	get_site_url()."/machine-learning/";
+			}
 		?>
         <!-- Analytics -->
         <div class="col-md-9 stack-nav-content">
