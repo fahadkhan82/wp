@@ -66,7 +66,7 @@
             </div>
           </div>
         </div>
-        <?php for($l=4;$l<13;$l++){
+        <?php for($l=4;$l<41;$l++){
             if($l==3){
 				$link	=	get_site_url()."/industries/";
 			}elseif($l==4){
@@ -84,12 +84,14 @@
 			}elseif($l==10){
 				$link	=	get_site_url()."/ssi/";
 			}
-			elseif($l==11){
-				$link	=	get_site_url()."/insider-thread/";
+			elseif($l==39){
+				$link	=	get_site_url()."/insider-threat/";
 			}
-			elseif($l==12){
+			elseif($l==40){
 				$link	=	get_site_url()."/machine-learning/";
 			}
+			
+			if($l==1 ||$l==2||$l==3||$l==4||$l==5||$l==6||$l==7||$l==7||$l==8||$l==9||$l==10||$l==39||$l==40){
 		?>
         <!-- Analytics -->
         <div class="col-md-9 stack-nav-content">
@@ -104,7 +106,9 @@
               <a class="link--btn-next header-block__link" href="<?php echo $link;?>"> Learn More </a> </div>
           </div>
         </div>
-        <?php } ?>
+        <?php 
+			}
+		} ?>
       </div>
     </div>
     <div class="container">
